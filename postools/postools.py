@@ -21,3 +21,8 @@ def plot_trace_status(cell_set_file: list[str]) -> None:
     fig, ax = plt.subplots(figsize=(5, 5))
     plt.scatter(trace_means, trace_stds)
     fig.savefig(out_file_name, dpi=300)
+
+
+def dummy_func():
+    """this function does nothing"""
+    pass
